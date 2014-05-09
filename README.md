@@ -1,6 +1,6 @@
 # SU WebDev Pages
 
-This is the org pages repository for the Web Development Certificate at Seattle University..
+This is the org pages repository for the Web Development Certificate at Seattle University.
 
 Using this repository
 =====================
