@@ -1,0 +1,30 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" >
+<svg xmlns="http://www.w3.org/2000/svg">
+<metadata></metadata>
+<defs>
+<font id="susymbolsregular" horiz-adv-x="2048" >
+<font-face units-per-em="2048" ascent="1638" descent="-410" />
+<missing-glyph horiz-adv-x="500" />
+<glyph horiz-adv-x="0" />
+<glyph unicode="&#xd;" />
+<glyph unicode="d" d="M729 340l269 -290l270 290l-46 46l-185 -203v201l233 254l-46 45l-187 -202v200l233 254l-46 45l-187 -202v772h-66v-772l-191 202l-47 -45l238 -254v-200l-191 202l-47 -45l238 -254v-200l-191 202z" />
+<glyph unicode="l" d="M273 797l291 -270l45 46l-202 185h200l254 -233l45 47l-202 186h200l254 -233l45 47l-202 186h772v66h-772l202 192l-45 46l-254 -238h-200l202 192l-45 46l-254 -238h-200l202 192l-45 50z" />
+<glyph unicode="r" d="M249 764h772l-202 -192l45 -46l254 238h200l-202 -192l46 -46l253 238h201l-202 -192l45 -50l290 269l-290 270l-45 -46l202 -185h-200l-254 233l-46 -47l203 -186h-201l-254 233l-45 -47l202 -186h-772v-66z" />
+<glyph unicode="u" d="M730 661l47 -45l186 202v-772h66v772l192 -202l46 45l-238 254v200l192 -202l46 45l-238 254v200l192 -201l51 45l-270 290l-269 -290l45 -45l185 202v-201l-233 -254l47 -45l186 202v-200z" />
+<glyph unicode="&#x2000;" horiz-adv-x="1024" />
+<glyph unicode="&#x2001;" />
+<glyph unicode="&#x2002;" horiz-adv-x="1024" />
+<glyph unicode="&#x2003;" />
+<glyph unicode="&#x2004;" horiz-adv-x="682" />
+<glyph unicode="&#x2005;" horiz-adv-x="512" />
+<glyph unicode="&#x2006;" horiz-adv-x="341" />
+<glyph unicode="&#x2007;" horiz-adv-x="341" />
+<glyph unicode="&#x2008;" horiz-adv-x="256" />
+<glyph unicode="&#x2009;" horiz-adv-x="409" />
+<glyph unicode="&#x200a;" horiz-adv-x="113" />
+<glyph unicode="&#x202f;" horiz-adv-x="409" />
+<glyph unicode="&#x205f;" horiz-adv-x="512" />
+<glyph unicode="&#x25fc;" horiz-adv-x="500" d="M0 0z" />
+</font>
+</defs></svg> 

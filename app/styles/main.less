@@ -1,0 +1,394 @@
+
+// bower:less
+@import 'bootstrap/less/bootstrap';
+// endbower
+@import 'variables';
+@import 'sumixins';
+
+.browsehappy {
+    margin: 0.2em 0;
+    background: #e8e8e8;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+/* Space out content a bit */
+body {
+    background: url('img/paper_texture_04.jpg') repeat center center scroll #fff;
+    .su-logo {
+        background: url('img/su_wordmark_redblk_50.png') no-repeat left center;
+        background-size: contain;
+        min-height: 50px;
+        min-width: 177px;
+        display: inline-block;
+        text-indent: -10000px;
+    }
+    .color-blue { color: @brand-blue; }
+    .color-yellow { color: @brand-yellow;}
+    .color-green { color: @brand-green; }
+    .color-red-orange { color: @brand-red-orange; }
+    .color-red { color: @brand-red; }
+    .color-navy { color: @brand-navy; }
+
+    .spinner {
+        transition: all 2s ease;
+        &:hover {
+            transition: all 2s ease;
+            .rotate(360deg);
+        }
+    }
+}
+
+/* navbar styles */
+.navbar.navbar-default.navbar-su {
+    background-color: #fff;
+    padding: 0 1em;
+    font-family: @font-family-condensed;
+    font-weight: 700;
+    font-size: 18px;
+    margin: 0;
+    .navbar-collapse, .navbar-form {
+        border-color: @brand-black;
+    }
+    .navbar-brand {
+        font-family: @font-family-condensed;
+        font-size: 2.8em;
+        color: @brand-red;
+        text-indent: -1000px;
+        background: url('/styles/img/su_cope_wordmark.png') no-repeat left center;
+        background-size: contain;
+        min-height: 60px;
+        min-width: 200px;
+        margin: 10px;
+        width: 255px;
+        @media screen and (max-width: @screen-xs-max) {
+            height: 60px;
+        }
+    }
+    ul { margin-top: 1rem; }
+    li {
+        button {
+            margin-top: 20px;
+            font-family: @font-family-condensed;
+            text-transform: uppercase;
+            letter-spacing: 0.2rem;
+            font-size: 2.2rem;
+            .btn-lg();
+            margin-right: 3rem;
+            transition: all 0.5s ease;
+            @media screen and (max-width: @screen-sm-max) {
+                margin-top: 1.2rem;
+            }
+        }
+        a {
+            font-family: @font-family-condensed;
+            text-transform: uppercase;
+            color: @brand-black;
+            transition: all 0.5s ease;
+            font-size: 3rem;
+            &:hover, &:focus {
+                color: @brand-blue;
+            }
+            @media screen and (max-width: @screen-sm-max) {
+                margin-top: 1.2rem;
+                font-size: 2.2rem;
+            }
+        }
+    }
+    &.affix {
+        background: rgba(255, 255, 255, 0.9);
+    }
+
+}
+.feature {
+    min-height: 300px;
+    padding: 2rem;
+    color: @brand-white;
+    text-shadow: 2px 2px 0 rgba(56, 57, 56, 1);
+    .btn-apply {
+        font-family: @font-family-condensed;
+        text-transform: uppercase;
+        letter-spacing: 0.2rem;
+        font-size: 2.2rem;
+        .btn-lg();
+        transition: all 0.5s ease;
+        @media screen and (max-width: @screen-sm-max) {
+            margin-top: 1.2rem;
+        }
+    }
+    h2 {
+        font-family: @font-family-condensed;
+        text-transform: uppercase;
+        font-weight: 700;
+        letter-spacing: 0.2rem;
+        font-size: 4rem;
+        color: @brand-yellow;
+    }
+    .bold-serif {
+        font-family: @font-family-serif;
+        font-size: 3rem;
+        font-weight: 700;
+    }
+    &.webdev-intro {
+        min-height: 400px;
+        background: url('/img/purple_hair_1440x400.jpg') top center no-repeat;
+        background-size: cover;
+        padding: 6rem 4rem;
+        p.word-tag {
+            a {
+                white-space: nowrap;
+                font-family: @font-family-condensed;
+                font-weight: bold;
+                font-size: 4rem;
+                text-transform: uppercase;
+                margin: 3rem;
+                padding: 1rem;
+                text-decoration: none;
+                transition: all 0.5s ease;
+                @media screen and (max-width: @screen-xs-max) {
+                    font-size: 2rem;
+                    margin: 1rem;
+                }
+                &:link, &:visited {
+                    color: @brand-white;
+                }
+                &:active, &:hover {
+                    background: rgba(239, 65, 53, 0.8);
+                    span.susymbol {
+                        margin-left: 3rem;
+                        transition: all 0.5s ease;
+                    }
+                }
+            }
+            a span.explainer {
+                display: block;
+                visibility: hidden;
+                overflow: hidden;
+                transition: all 0.5s ease;
+                white-space: normal;
+                position: absolute;
+                right: 30%;
+                top: 20%;
+                background: none;
+                padding: 1rem;
+                color: transparent;
+                font-family: @font-family-serif;
+                font-size: 2.5rem;
+                font-weight: 100;
+                text-transform: none;
+                width: 30%;
+                @media screen and (max-width: @screen-sm-max) {
+                    font-size: 1.6rem;
+                    right: 30%;
+                }
+                @media screen and (max-width: @screen-xs-max) {
+                    font-size: 1.2rem;
+                    right: 10%;
+                }
+            }
+            a:hover span.explainer {
+                visibility: visible;
+                color: @brand-white;
+                background: rgba(71, 195, 211, 0.8);
+                transition: all 0.5s ease;
+
+            }
+        }
+    }
+    &#create {
+        background: url(img/bkgd_tiles/p1_red.png) repeat;
+        h2 {
+            color: @brand-yellow;
+        }
+        p.bold-serif {
+            font-size: 3.5rem;
+        }
+    }
+    &#evolve {
+        min-height: 500px;
+        background: url('/img/stay_weird_1440x600.jpg') bottom center no-repeat;
+        background-size: cover;
+        position: relative;
+        color: @brand-white;
+
+    }
+    &#discover {
+        background: url(img/bkgd_tiles/p4_black.png) repeat;
+        height: auto;
+        position: relative;
+        padding: 0;
+        overflow: hidden;
+        .image {
+            text-align: right;
+            padding-right: 2rem;
+        }
+
+        h2 { color: @brand-primary; }
+        .content:before {
+            content: "";
+            position: absolute;
+            left: 0;
+            right: 0;
+            top: 0;
+            z-index: -1;
+
+            display: block;
+            background: url('/img/page_code.jpg') bottom center no-repeat;
+            background-size: cover;
+            height: 400px;
+            width: 100%;
+
+            .blur(2px);
+        }
+        .content {
+            position: absolute;
+            left: 0;
+            right: 0;
+            top: 0;
+            z-index: 0;
+            width: 100%;
+            margin-left: 0px;
+            margin-right: 0px;
+            text-align: right;
+            padding-right: 8rem;
+            padding-top: 4rem;
+        }
+    }
+    &#thrive {
+        background: url('img/bkgd_tiles/p1_red.png') repeat;
+    }
+    &#apply-now{
+        //.blend('/img/cafe_racer_1440x600'; @brand-blue; overlay);
+        background-image: url('/img/cafe_racer_1440x600.jpg');
+        background-position: bottom center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        text-align: right;
+        padding-right: 10%;
+        h2 { color: @brand-primary; }
+    }
+}
+
+/* Everything but the jumbotron gets side spacing for mobile first views */
+.header,
+.marketing,
+.footer {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Custom page header */
+.header {
+    border-bottom: 1px solid #e5e5e5;
+
+    /* Make the masthead heading the same height as the navigation */
+    h3 {
+        margin-top: 0;
+        margin-bottom: 0;
+        line-height: 40px;
+        padding-bottom: 19px;
+    }
+}
+
+/* Custom page footer */
+footer.footer {
+    padding: 4em;
+    color: @brand-white;
+    background: url('img/bkgd_tiles/black.png') repeat @brand-black;
+    text-align: center;
+    p.su-wordmark {
+        padding: 2em 0 0 3.5em;
+        a img {
+            background: @brand-white;
+        }
+    }
+    a {
+        transition: all 0.5s ease;
+        &:link, &:visited {
+            color: @brand-yellow;
+            text-decoration: none;
+        }
+        &:hover, &:active, &:focus {
+            color: @brand-white;
+            text-decoration: none;
+        }
+    }
+    ul {
+        list-style-type: none;
+        margin: 0;
+        > li {
+            display: block;
+            list-style-type: none;
+            padding: 0 0.5em;
+            > a {
+                font-size: 1.4em;
+
+            }
+        }
+
+    }
+}
+
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: @screen-md-min) {
+    .container {
+        max-width: 730px;
+    }
+
+    /* Remove the padding we set earlier */
+    .header,
+    .marketing,
+    .footer {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    /* Space out the masthead */
+    .header {
+        margin-bottom: 30px;
+    }
+
+    /* Remove the bottom border on the jumbotron for visual effect */
+    .jumbotron {
+        border-bottom: 0;
+    }
+}
+
+/* Sticky Footer Styles */
+html,
+body {
+  height: 100%;
+  /* The html and body elements cannot have any padding or margin. */
+}
+body { margin-top: 100px; }
+/* Wrapper for page content to push down footer */
+#wrap {
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+  /* Negative indent footer by it's height */
+  margin: 0 auto -340px;
+  @media (max-width: @screen-sm-max) {
+        margin: 0 auto -600px;
+  }
+}
+
+/* Set the fixed height of the footer here */
+#push,
+footer.footer {
+  height: 340px;
+  @media (max-width: @screen-sm-max) {
+        height: 600px;
+  }
+}
+
+/* Lastly, apply responsive CSS fixes as necessary */
+@media (max-width: 767px) {
+footer.footer {
+  margin-left: -20px;
+  margin-right: -20px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+}
+/* End Sticky Footer Styles */
