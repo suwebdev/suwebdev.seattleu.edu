@@ -1,0 +1,45 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+    
+    Developer: Shawn Rider
+    Twitter: @shawnr
+    Location: Seattle, WA
+    
+    Design Oversight: Eli Christopher
+    Location: Seattle, WA
+
+    Language and De-Capitalization: Rick Fehrenbacher
+    Location: Seattle, WA
+
+# THANKS
+
+    Design Input: Amanda Lodi
+    Location: Seattle, WA
+    
+    UI/UX Input: Erin Reisling
+    Location: Seattle, WA
+
+    Review and Feedback: Jayme Jacobson
+    Location: Seattle, WA
+
+    Review and Feedback: Jane Snare
+    Location: Seattle, WA
+
+    Review, Feedback, Support: Elizabeth Wallin
+    Location: Seattle, WA
+
+# TECHNOLOGY COLOPHON
+
+    Yeoman
+    Bower
+    Grunt
+    LESS
+    CSS3
+    HTML5
+    Modernizr
+    Google Analytics
+    Bootstrap
+    FontAwesome
+    Glyphicons
