@@ -16,12 +16,12 @@ bower install
 To build the site locally run the ``grunt build`` command.
 
 
-Deploying changes to suwebdev.github.io
-=====================================
+Deploying changes to webdev.seattleu.edu
+========================================
 Run the following commands:
 
 ```
 grunt build
 
-grunt buildcontrol:pages
+grunt buildcontrol
 ```
