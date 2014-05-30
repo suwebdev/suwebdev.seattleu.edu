@@ -7,7 +7,7 @@
     Twitter: @shawnr
     Location: Seattle, WA
     
-    Design Oversight: Eli Christopher
+    Design Oversight: Eli Voigt
     Location: Seattle, WA
 
     Language and De-Capitalization: Rick Fehrenbacher
