@@ -15,7 +15,9 @@
                     mixpanel.track('Apply Button Clicked');
                 });
 
-                mixpanel.track("FAQs page viewed");
+                mixpanel.track("Page View", { 
+                    'title': 'Questions'
+                });
 
                 $('.btn-faq').on('click', function () {
                     mixpanel.track('FAQ Viewed', {
