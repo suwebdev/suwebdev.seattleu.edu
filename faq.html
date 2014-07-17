@@ -38,6 +38,12 @@
                 $('.btn-apply').on('click', function () {
                     mixpanel.track('Apply Button Clicked');
                 });
+                $('.btn-request-info').on('click', function () {
+                    mixpanel.track('Request Info Opened');
+                });
+                $('.request-info-modal .close').on('click', function () {
+                    mixpanel.track('Request Info Closed');
+                });
 
                 mixpanel.track("Page View", {
                     'title': 'Questions'
