@@ -1,0 +1,39 @@
+/* WuFoo styles */
+.wufoo input.btTxt {
+    background: #aa0000;
+    border: none;
+    padding: 0.5rem;
+    color: #fff;
+}
+.wufoo a, .wufoo a:link, .wufoo a:active, .wufoo a:visited,  {
+    color: #e8e8e8 !important;
+    text-decoration: none !important;
+}
+.wufoo a:hover {
+    color: #aa0000 !important;
+    text-decoration: underline !important;
+}
+#errorLi {
+    border-radius: 0;
+    background: #FFF7EC;
+    border: 1px solid #aa0000;
+}
+#errorLi h3 {
+    color: #aa0000;
+}
+#errorLi b {
+    background-color: #FDB913;
+    color: #aa0000;
+}
+form li.error {
+    background-color: #FFF7EC;
+}
+form li.error .desc {
+color: #aa0000 !important;
+}
+form span.req {
+    color: #aa0000 !important;
+}
+form p.error {
+    color: #aa0000 !important;
+}

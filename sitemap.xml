@@ -36,4 +36,10 @@
   <changefreq>weekly</changefreq>
   <priority>0.80</priority>
 </url>
+<url>
+  <loc>http://webdev.seattleu.edu/about.html</loc>
+  <lastmod>2014-07-09T19:09:23+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
+</url>
 </urlset>
